@@ -10,8 +10,12 @@
 </head>
 <body>
     <div class="container">
-        {{-- Se divide el contenido en 4 columnas --}}
-        <div class="grid grid-cols-4 gap-x-4">
+        {{-- Se divide el contenido en 4 columnas
+            Definiendo varios grid antencedidos por el breakpoint: se
+            puede establecer columnas responsivas, el valor predeterminado
+            es 1 columna, ya que no tiene ningún breakpoint, pero a partir de que se empiezen
+            a alcanzar las medidas del breakpoint se empieza a aplicar el # de columnas --}}
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4">
             {{-- Definir un color de fondo --}}
             <div class="bg-blue-200">A</div>
             <div class="bg-blue-300">B</div>

@@ -25,6 +25,21 @@
             <div class="bg-blue-700">D</div>
 
         </div>
+
+        <div class="grid grid-cols-12 gap-1">
+            <div class="bg-green-200">A</div>
+            <div class="bg-green-300">A</div>
+            <div class="bg-green-400">A</div>
+            <div class="bg-green-500">A</div>
+            <div class="bg-green-500">A</div>
+            <div class="bg-green-600">A</div>
+            <div class="bg-green-700">A</div>
+            <div class="bg-green-800">A</div>
+            <div class="bg-green-900">A</div>
+            <div class="bg-yellow-200">B</div>
+            <div class="bg-yellow-300">B</div>
+            <div class="bg-yellow-400">B</div>
+        </div>
     </div>
 </body>
 </html>

@@ -11,6 +11,8 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
+        /* Se aumenta el número de columnas que puede
+            tener un grid*/
         // Simple 16 column grid
         '16': 'repeat(16, minmax(0, 1fr))',
 

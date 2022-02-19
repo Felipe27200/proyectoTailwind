@@ -10,36 +10,21 @@
 </head>
 <body>
     <div class="container">
-        {{-- Se divide el contenido en 4 columnas
-            Definiendo varios grid antencedidos por el breakpoint: se
-            puede establecer columnas responsivas, el valor predeterminado
-            es 1 columna, ya que no tiene ningún breakpoint, pero a partir de que se empiezen
-            a alcanzar las medidas del breakpoint se empieza a aplicar el # de columnas --}}
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4">
-            {{-- Definir un color de fondo --}}
-            <div class="bg-blue-200">A</div>
-            <div class="bg-blue-300">B</div>
+        <div class="grid grid-cols-4 gap-4">
+            {{-- La clase span permite definir cuántas columnas abarcará una
+                sola columna, adicionalmente se le puede definir un breakpoint
+                para ajustar la expansión a la pantalla --}}
+            {{-- <div class="bg-blue-200 sm:col-span-2 md:col-span-3 lg:col-span-4 col-start-2">A</div> --}}
+            {{-- start le indica que empieze a partir de la columna en la posición 2 --}}
+            <div class="bg-blue-200 col-span-2 col-start-2">A</div>
+            <div class="bg-blue-300 col-start-1">B</div>
             <div class="bg-blue-400">C</div>
             <div class="bg-blue-500">D</div>
             <div class="bg-blue-600">C</div>
             <div class="bg-blue-700">D</div>
-
         </div>
 
-        <div class="grid grid-cols-12 gap-1">
-            <div class="bg-green-200">A</div>
-            <div class="bg-green-300">A</div>
-            <div class="bg-green-400">A</div>
-            <div class="bg-green-500">A</div>
-            <div class="bg-green-500">A</div>
-            <div class="bg-green-600">A</div>
-            <div class="bg-green-700">A</div>
-            <div class="bg-green-800">A</div>
-            <div class="bg-green-900">A</div>
-            <div class="bg-yellow-200">B</div>
-            <div class="bg-yellow-300">B</div>
-            <div class="bg-yellow-400">B</div>
-        </div>
+
     </div>
 </body>
 </html>

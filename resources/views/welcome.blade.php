@@ -15,7 +15,7 @@
             puede establecer columnas responsivas, el valor predeterminado
             es 1 columna, ya que no tiene ningún breakpoint, pero a partir de que se empiezen
             a alcanzar las medidas del breakpoint se empieza a aplicar el # de columnas --}}
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4">
+        <div class="grid grid-cols-16 gap--4">
             {{-- Definir un color de fondo --}}
             <div class="bg-blue-200">A</div>
             <div class="bg-blue-300">B</div>
@@ -23,6 +23,16 @@
             <div class="bg-blue-500">D</div>
             <div class="bg-blue-600">C</div>
             <div class="bg-blue-700">D</div>
+            <div class="bg-yellow-200">A</div>
+            <div class="bg-yellow-300">B</div>
+            <div class="bg-yellow-400">C</div>
+            <div class="bg-yellow-500">D</div>
+            <div class="bg-yellow-600">C</div>
+            <div class="bg-yellow-700">D</div>
+            <div class="bg-green-400">C</div>
+            <div class="bg-green-500">D</div>
+            <div class="bg-green-600">C</div>
+            <div class="bg-green-700">D</div>
 
         </div>
     </div>

@@ -10,18 +10,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="grid grid-cols-4 gap-4">
-            {{-- La clase span permite definir cuántas columnas abarcará una
-                sola columna, adicionalmente se le puede definir un breakpoint
-                para ajustar la expansión a la pantalla --}}
-            {{-- <div class="bg-blue-200 sm:col-span-2 md:col-span-3 lg:col-span-4 col-start-2">A</div> --}}
-            {{-- start le indica que empieze a partir de la columna en la posición 2 --}}
-            <div class="bg-blue-200 col-span-2 col-start-2">A</div>
-            <div class="bg-blue-300 col-start-1">B</div>
-            <div class="bg-blue-400">C</div>
+        {{-- con grid-rows, se le indica el número de filas que tendrá
+            en este caso se definen 2 --}}
+        <div class="grid grid-cols-4 grid-rows-2 gap-4">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            {{-- Así se le indica que esta columna ocupará 2 filas --}}
+            <div class="bg-blue-400 row-span-2 col-span-2">C</div>
             <div class="bg-blue-500">D</div>
-            <div class="bg-blue-600">C</div>
-            <div class="bg-blue-700">D</div>
+            <div class="bg-blue-700">E</div>
         </div>
 
 

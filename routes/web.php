@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('clases/tipografia', function(){
-    return view('clases.tipografia');
+Route::get('tipografias/tipografia', function(){
+    return view('tipografias.tipografia');
+});
+
+Route::get('tipografias/tipografiaCss', function(){
+    return view('tipografias.tipografiaAppCss');
 });

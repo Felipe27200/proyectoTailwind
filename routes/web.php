@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('clases/tipografia', function(){
+    return view('clases.tipografia');
+});

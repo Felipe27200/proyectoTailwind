@@ -9,6 +9,8 @@
 </head>
 <body>
     <div class="container">
+        @include('layouts.header')
+        
         <h1 class="font-sans text-6xl md:text-3xl font-bold">Título de Prueba</h1>
 
         {{-- Leading es el interlineado entre las líneas de texto.

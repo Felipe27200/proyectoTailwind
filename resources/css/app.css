@@ -1,19 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-h1{
-    /* Se aplican estilos a los h1 mediante
-    la directiva apply de tailwind.
-    Cabe recalcar que en la hoja de estilos no puede
-    haber breakpoints */
-    @apply font-sans text-6xl text-3xl font-bold;
-}
-
-p{
-    @apply font-serif leading-normal mb-6 -ml-3;
-}
-
-ul{
-    @apply font-mono text-sm italic;
-}

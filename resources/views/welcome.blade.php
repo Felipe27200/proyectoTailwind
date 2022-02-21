@@ -10,6 +10,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="grid grid-flow-col mb-6">
+            <div><a href="{{route('tipografias.tipografia')}}"> Tipografía </a></div>
+            <div><a href="{{route('tipografias.tipografiaCss')}}">Tipografía CSS</a></div>
+            <div><a href="{{route('tipografias.importarFuentes')}}">Importar Tipografía</a></div>
+        </div>
+
         {{-- Gracias a grid flow col organiza de forma automática las columnas en una fila --}}
         <div class="grid grid-flow-col">
             <div class="bg-blue-100">1</div>

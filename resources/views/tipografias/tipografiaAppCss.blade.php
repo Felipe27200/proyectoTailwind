@@ -9,6 +9,8 @@
 </head>
 <body>
     <div class="container">
+        @include('layouts.header')
+        
         <h1>Título de Prueba</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt non animi ullam maxime modi, nisi temporibus nihil, molestiae adipisci optio nam tempore, explicabo distinctio aspernatur repudiandae. Rem perspiciatis voluptates placeat.</p>

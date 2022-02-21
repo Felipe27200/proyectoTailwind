@@ -15,12 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('index');
 
 Route::get('tipografias/tipografia', function(){
     return view('tipografias.tipografia');
-});
+})->name('tipografias.tipografia');
 
 Route::get('tipografias/tipografiaCss', function(){
     return view('tipografias.tipografiaAppCss');
-});
+})->name('tipografias.tipografiaCss');
+
+Route::get('tipografias/importarFuentes', function(){
+    return view('tipografias.importarFuentes');
+})->name('tipografias.importarFuentes');

@@ -10,13 +10,13 @@
 </head>
 <body>
     <div class="container">
-        {{-- con grid-rows, se le indica el número de filas que tendrá
+        {{-- con grid rows, se le indica el número de filas que tendrá
             en este caso se definen 2 --}}
-        <div class="grid grid-cols-4 grid-rows-2 gap-4">
+        <div class="grid grid-rows-2 grid-cols-4 gap-4">
             <div class="bg-blue-200">A</div>
             <div class="bg-blue-300">B</div>
-            {{-- Así se le indica que esta columna ocupará 2 filas --}}
-            <div class="bg-blue-400 row-span-2 col-span-2">C</div>
+            {{-- Así se le indica que esta columna ocupará 2 filas, si no carga, puede ser por la cache del sitio --}}
+            <div class="bg-blue-400 col-span-2 row-span-2">C</div>
             <div class="bg-blue-500">D</div>
             <div class="bg-blue-700">E</div>
         </div>
